@@ -1,0 +1,213 @@
+/*
+General
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto -30px;
+}
+
+.footer, .push {
+	height: 30px; /* .push must be the same height as .footer */
+    font-family: 'Roboto', sans-serif;
+    color:dimgray;
+    text-align:center;
+    margin-top: 30px;
+    font-size: 80%;
+}
+
+a {
+    text-decoration: none;  
+    color: black;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    text-decoration: none;  
+    color: black;
+}
+
+h2 { 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 250%;
+    text-rendering: optimizeLegibility;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;  
+    color: black;
+    text-align: center;
+    font-size: 180%;
+}
+
+p { 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 120%;
+    line-height: 150%;
+    text-rendering: optimizeLegibility;
+}
+
+/*
+Header
+*/
+
+.nav_bar {
+    background-color: white;
+    background-position: center;
+    height: 100px;
+}
+
+.row {
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+.home {
+    height: 40px;
+    font-size: 200%;
+    text-decoration: none;
+    width: auto;
+    float: left;
+    margin-top: 30px;
+    padding-left: 20px
+}
+
+.site_links {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+    padding-left: 30px;
+    padding-right: 20px;
+    
+}
+
+.site_links li {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.site_links li a:link,
+.site_links li a:visited {
+    padding: 10px 0;
+    color: black;
+    text-decoration: none;
+    font-size: 130%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2;   
+}
+
+.site_links li a:hover,
+.site_links li a:active {
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    border-bottom: 4px solid black;
+}
+
+/*
+About / Home
+*/
+
+.about-header {
+    margin-bottom: 30px;
+    margin-top: 30px
+}
+
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px
+}
+
+.about_links {
+    color:dimgrey;
+    background-color:transparent;
+    text-decoration: underline;
+}
+
+/*
+Resume 
+*/
+
+.resume {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.resume_text {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;      
+}
+
+/*
+Projects 
+*/
+
+.seahome_post {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-bottom: 2px solid dimgrey;
+}
+
+.project_head {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.date {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 90%;
+    text-rendering: optimizeLegibility;
+    color: dimgrey;
+    text-align: center;
+    padding: inherit;
+    border-bottom: 1px solid dimgrey;
+    display: inline-block; 
+}
+
+.content {
+    padding: inherit;
+}
+
+.article_img {
+    width:720px;
+    height:400px;
+    overflow:hidden;
+    margin: inherit;
+    padding-top: inherit;
+}
+
+.below_img {
+    padding-top: inherit;
+    padding-bottom: inherit;
+}
+
+.arch_post {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
